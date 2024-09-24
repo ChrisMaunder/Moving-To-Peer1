@@ -4,8 +4,7 @@ The cut-down version, without the swearing, of how we moved to a new hosting cen
 
 ## Moving CodeProject.com
 
-![Don't they look comfortable](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/
-Old.JPG)Every 
+Every 
 few years we ask ourselves "should we manage our own servers or pay someone else 
 to do that for us" and every time we do the sums it's always in favour of us managing 
 our own hardware. That includes licensing, bandwidth, electricity and hosting, purchasing, 
@@ -23,7 +22,9 @@ keys to our new home.
 
 ## How many servers is enough?
 
-Our old setup (pictured right) looks like a lot of hardware. It is, and it isn't. 
+![Don't they look comfortable](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/Old.JPG)
+
+Our old setup (above) looks like a lot of hardware. It is, and it isn't. 
 According to some comments Digg runs using 40-50 servers split between two data 
 centers. The number "500" is sometimes bandied around and may have come from counting 
 auxiliary servers such as backups and staging. At CodeProject.com we can run our 
@@ -51,16 +52,15 @@ screw in a light bulb" joke, only not.
 
 ## The move
 
-![Coffee. For the love of all things holy, coffee.](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/
-coffeeMe.JPG)
+![Coffee. For the love of all things holy, coffee.](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/coffeeMe.JPG)
 
 If 
 you're going to move delicate and important machinery then clearly the best thing 
 to do is get up at 5AM on a Saturday morning after a big evening the night before. 
 Hang on - no, that's actually the wrong way to do it but that's what we ended up 
 doing, regardless. 
-![Garden shears?](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/
-AyCarumba.JPG)
+
+![Garden shears?](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/AyCarumba.JPG)
 
 By 7AM there was light in the sky and caffeine in our veins and we started pulling 
 servers and unbolting cables, sometimes the other way around, and soon we were ready 
@@ -85,23 +85,20 @@ important stuff, and because it's all we had. It also had a sliding tray cover w
 was handy since it was meant to be raining during the move and no one brought any 
 tarps.
 
-| <!----> | <!----> |
-| --- | --- |
-| ![Buckle up](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/<br>ReadyToGo.JPG)
-<br>
+Packing
 
-    Before | ![Did we forget any of them?](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/<br>arrived.JPG)
-    <br>
-        
-        After |
+![Buckle up](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/ReadyToGo.JPG)
 
+Arrived
+
+![Did we forget any of them?](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/arrived.JPG)
+    
 Installing the old servers in the new racks was straight forward and tedious. 
 Hunting down missing cables, rails, power bars, switches and that odd shaped allen 
 key for getting the lids open was exciting and frustrating. Soon enough the servers 
 were racked, connected and powered and we were in business.
 
-![Locked and Loaded](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/
-racked.jpg)
+![Locked and Loaded](https://raw.githubusercontent.com/ChrisMaunder/Moving-To-Peer1/master/docs/assets/racked.jpg)
 
 We were alive. Total move time was 3 hours, including battling traffic.
 
@@ -162,7 +159,7 @@ a mess of 15k drives, 64GB's of RAM, 24 cores in 4 xeon CPU and a partridge in
 a pear tree. This was a pretty hefty purchase as we were on the bleeding edge of 
 the 4 way 6 core Xeons at the time. The issues for this server seemed to slowly creep up on us after the move. 
 It all started with a few random reboot's causing several brief outages. The early 
-Google style fire from the hip diagnostic pointed firmly at RAM or onboard cache 
+Google-style fire from the hip diagnostic pointed firmly at RAM or onboard cache 
 controller.
 
 The conversation went like this:
